@@ -1,4 +1,5 @@
-import { Navbar } from "@/components";
+import { NavbarCuston } from "@/components";
+
 
 
 export default function Layout({
@@ -8,10 +9,9 @@ export default function Layout({
   }>) {
     return (
       <>
-        <Navbar />
-        <main className="flex flex-col items-center p-24">
-            <span className="text-lg">Hola a todos</span>
-            {children}
+        <main className="flex flex-col min-h-screen items-center bg-black">
+          <NavbarCuston />
+          {children}
         </main>
       </>
     );

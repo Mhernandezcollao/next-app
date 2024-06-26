@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     description: "Description pricing page",
 };
 
-export default function PricingPage() {
+export default function SportsPage() {
     return (
       <>
         <span className="text-5xl">PRICINGPAGE</span>

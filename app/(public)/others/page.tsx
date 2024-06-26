@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     description: "Description contact page",
 };
 
-export default function ContactPage() {
+export default function OthersPage() {
     return (
       <>
         <span className="text-5xl">CONTACTPAGE</span>

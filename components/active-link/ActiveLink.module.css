@@ -1,11 +1,11 @@
 .link {
- @apply mr-2 
+ @apply text-white text-end mx-3
 }
 
 .link:hover {
-    @apply underline text-blue-400 transition-all;
+    @apply text-gray-300 transition-all;
 }
 
 .activeLink {
-    @apply text-blue-600
+    @apply text-white underline
 }
